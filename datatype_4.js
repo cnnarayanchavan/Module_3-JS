@@ -16,3 +16,9 @@ console.log(typeof b)
 let num = null
 console.log(num)
 console.log(typeof num)
+
+
+//UNDEFIND
+let number = undefined
+console.log(number)
+console.log(typeof number)
