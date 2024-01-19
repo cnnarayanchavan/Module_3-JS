@@ -19,6 +19,6 @@ console.log(typeof num)
 
 
 //UNDEFIND
-let number = undefined
-console.log(number)
-console.log(typeof number)
+let numbers
+console.log()
+console.log( typeof numbers)
