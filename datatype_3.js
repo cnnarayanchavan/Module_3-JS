@@ -1,3 +1,5 @@
+// NUMBER DATATYPE
+
 let num = 123423456
 let username = "Narayana Chavan"
 let a  = 1

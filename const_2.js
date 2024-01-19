@@ -1,3 +1,5 @@
+
+//CONSTANT IN JAVASCRPT
 // lets find the area of circle  
 let radius = 5 
 const pi = 3.14
