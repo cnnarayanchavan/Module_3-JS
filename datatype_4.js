@@ -20,5 +20,5 @@ console.log(typeof num)
 
 //UNDEFIND
 let numbers
-console.log()
+console.log(numbers)
 console.log( typeof numbers)
