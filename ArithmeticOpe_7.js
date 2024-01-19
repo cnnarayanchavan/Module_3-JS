@@ -17,4 +17,8 @@ console.log(res)
 let powers = 9**2
 console.log(powers)
 
+let cube_of_number = 9**3
+console.log(cube_of_number)
+// here we perform cube again
+
 
