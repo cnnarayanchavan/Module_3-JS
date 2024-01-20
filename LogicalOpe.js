@@ -5,9 +5,9 @@
 //OPERATIONS
 
 //AND {&&}
-let a = 100
-let b = 200
-let c = 300
+let a = 20
+let b = 30
+let c = 40
 let res = a>b && a>c
 console.log(res)
 
