@@ -4,4 +4,4 @@
 let a = "Narayana"
 let b = "Chavan"
 let res = a>b
-consol.log(res)
+console.log(res)
