@@ -19,3 +19,6 @@ console.log(res)
 //lets check the  Logical 'NOT' operator
 let d = !res
 console.log(d)
+
+
+//adding comment to check working of git
