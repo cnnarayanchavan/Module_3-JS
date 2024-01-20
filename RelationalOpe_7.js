@@ -5,3 +5,6 @@ let a = "Narayana"
 let b = "Chavan"
 let res = a>b
 console.log(res)
+
+let x = 4>4
+console.log(x)
