@@ -20,8 +20,3 @@ let val2 = 90
 let result = val1 === val2
 console.log(result)
 // HERE WE DID NOT CREATE ANY BUGS HERE WE USE "STRICTLY EQUALUTY OPERATOR"  IN JAVASCRIPT
-<<<<<<< HEAD
-
-=======
- 
->>>>>>> db0ba37880aa31f346db105ecb0ec78efca61095
