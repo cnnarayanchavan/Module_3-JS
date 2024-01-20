@@ -8,9 +8,6 @@ console.log(res)
 // HERE FRO COMPAIRSION WE ACTUALLLY USED ASCII VALUES OF THOSE STRINGS .
 //WHERE A = 64 ......... Z = 91
 
-let x = 4>4
-console.log(x)
-
 let Name = "90"
 let y = 90
 let w = Name == y
@@ -23,4 +20,8 @@ let val2 = 90
 let result = val1 === val2
 console.log(result)
 // HERE WE DID NOT CREATE ANY BUGS HERE WE USE "STRICTLY EQUALUTY OPERATOR"  IN JAVASCRIPT
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> db0ba37880aa31f346db105ecb0ec78efca61095
