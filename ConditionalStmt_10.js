@@ -21,4 +21,11 @@ if(a%2==0){
 else{
   console.log("odd number")
 }
-  
+
+//let's try the simplar way which is 'Ternary Operator'
+
+//Syntax : var = condition ? stmt1 : stmt2 ;
+
+let num = 90
+let var1 = (num % 2 ==0)?"Even":"Odd"
+console.log(num)
