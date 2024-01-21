@@ -19,7 +19,7 @@ switch(Assassians){
       //break;
   case 5:
     console.log("equie rope dart");
-      //break;
+      break;
   default:
     console.log("Keep fighting with your wrist")
 }
