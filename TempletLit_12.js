@@ -14,3 +14,10 @@ console.log ("the addation of the a , b ,c is:" +add)
 console.log(`The addition of number a,b,c is := ${add}`)
 //se we can also do like this 
 console.log(`the addition of ${a} ,${b} , ${c}  i s := ${add}`)
+
+//Again we can also do like this 
+//here we go
+console.log(`My name is 
+Narayan Chavan`)
+
+//UK WHAT EXACTLY IT DOES IT WILL PRINT YOUR OUTPUT WITH ONE LINE SPACE IN BETWEEN WITH GIVING '\n'
