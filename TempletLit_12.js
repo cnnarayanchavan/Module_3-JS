@@ -12,3 +12,5 @@ console.log ("the addation of the a , b ,c is:" +add)
 
 //way2
 console.log(`The addition of number a,b,c is := ${add}`)
+//se we can also do like this 
+console.log(`the addition of ${a} ,${b} , ${c}  i s := ${add}`)
