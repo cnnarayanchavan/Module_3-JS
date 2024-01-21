@@ -8,7 +8,7 @@
 let a = 200
 let b = 300
 let c = 400
-let res = a>b | a>c
+let res = a<b | a>c
 console.log(res)
 
 //OR{|}
