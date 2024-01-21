@@ -26,6 +26,7 @@ else{
 
 //Syntax : var = condition ? stmt1 : stmt2 ;
 
-let num = 90
-let var1 = (num % 2 ==0)?"Even":"Odd"
-console.log(num)
+let num = 10;
+let val1;
+let var1 = num % 2 === 0 ? "Even" : "Odd"
+console.log(var1)
