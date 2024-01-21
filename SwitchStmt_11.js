@@ -1,22 +1,25 @@
 let Assassians;
-switch(Assassians)
-  case "Press1" :
-      console.log("equpe hand gun")
+Assassians = 1
+switch(Assassians){
+  case 1:
+    console.log("equie hand gun")
       break;
-  case "press2":
-      console.log("eqipe blades");
+  case 2:
+    console.log("equie blades");
       break;
-  case "press3":
-      console.log("eqipe swords");
+  case 3:
+    console.log("equie swords");
       break;
-  case "press4":
-      console.log("eqipe smoke bombs");
+  case 4:
+    console.log("equie smoke bombs");
       break;
-  case "press5":
-      console.log("eqipe rope dart");
+  case 5:
+    console.log("equie rope dart");
       break;
   default:
-      console.log("Keep fighting with ur wrist")
+    console.log("Keep fighting with your wrist")
+}
+     
         
         
 
