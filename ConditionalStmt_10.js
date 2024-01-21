@@ -28,5 +28,5 @@ else{
 
 let num = 10;
 let val1;
-let var1 = num % 2 === 0 ? "Even" : "Odd"
+let var1 = (num % 2 ==0) ? "Even" : "Odd "
 console.log(var1)
