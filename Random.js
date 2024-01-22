@@ -2,7 +2,7 @@
 
 //here number is prime or not 
 
-let number = "Narayana"  //lets get a wrong statment here
+let number = "Narayana"  //lets get a wrong statment here to see how backtick' ` ' work 
 //find number is prime or not
 //prime is what the number which is divisible by one and thet number 
 if(number%2===0)
