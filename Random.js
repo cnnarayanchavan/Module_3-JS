@@ -2,7 +2,7 @@
 
 //here number is prime or not 
 
-let number = 12
+let number = "Narayana"  //lets get a wrong statment here
 //find number is prime or not
 //prime is what the number which is divisible by one and thet number 
 if(number%2===0)
@@ -12,5 +12,5 @@ else if(number ** 2 === 144)
 else
   console.log(`totallllyy wrong
   Statement`)
-
+1
   
