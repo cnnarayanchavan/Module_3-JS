@@ -10,5 +10,6 @@
 let i = 5;
 do{
   console.log("hello narayan" , i)
-  while(i<=6)
+  i++;
 }
+while(i<=5)
