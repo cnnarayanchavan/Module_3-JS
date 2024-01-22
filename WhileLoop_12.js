@@ -11,3 +11,5 @@ while(i<=5){
 }
 
 //now the question what will be the value of i
+
+console.log(i);
