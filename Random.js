@@ -19,3 +19,13 @@ let username = 'Narayana Chavan from "RMDSSOE" '
 console.log(username)
 
 
+//here we are again let's try the extraction of number and count total digits
+let number = 1124;
+let count = 0;
+while(number>=0){
+  let lastdigit = number%10;
+  number = number / 10;
+  coun++; //post incriment
+  console.log(number)
+}
+
