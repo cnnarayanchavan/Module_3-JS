@@ -14,9 +14,9 @@
 //   Statement`)
 
 //now let's check some string questions 
-let username = 'Narayana Chavan from "RMDSSOE" '
-//here i just wnated to give double quote to the RMDSSOE college
-console.log(username)
+// let username = 'Narayana Chavan from "RMDSSOE" '
+// //here i just wnated to give double quote to the RMDSSOE college
+// console.log(username)
 
 
 //here we are again let's try the extraction of number and count total digits
@@ -25,7 +25,7 @@ let count = 0;
 while(number>=0){
   let lastdigit = number%10;
   number = number / 10;
-  coun++; //post incriment
-  console.log(number)
+  count++; //post incriment
 }
+ console.log(count);
 
