@@ -3,6 +3,11 @@
 
 let num = 12345
 while(num>0){
-  num = num / 10
-  console.log( "Extraction os the digits are: " +num)
+  let lastdigit= parseInt(num%10)
+  num = parseInt(num / 10)
+  console.log(lastdigit);
 }
+
+
+
+
