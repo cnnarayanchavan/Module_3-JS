@@ -26,8 +26,10 @@ let Alian = {
 }
 }
 //this is nothing but the conplext object
-console.log(Alian.speceship.wheels);
+// console.log(Alian.speceship.wheels);
 
 //now i want to delete some properties form the created object 
 
 delete spaceship.wheels
+console.log(Alian)
+
