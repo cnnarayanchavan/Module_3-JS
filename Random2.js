@@ -3,6 +3,7 @@
 
 let num = 12345
 while(num>0){
-  num = num / 10
-  console.log( "Extraction os the digits are: " +num)
+  num = parseInt(num / 10)
+  lastdigit = parseInt(num%10)
+  console.log( "reverse of the digits are: " lastdigit )
 }
