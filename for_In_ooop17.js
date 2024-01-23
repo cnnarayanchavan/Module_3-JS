@@ -14,8 +14,11 @@ let Animal = {
 
  for(let key in Animal)
  {
-   console.log(key,Animal[key])
-   }
+   //console.log(key)
+
+   //This is for fetching values as well as pairs
+   console.log(key,Animal[key]);
+ }
 
 
 
