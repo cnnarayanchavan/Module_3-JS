@@ -15,17 +15,17 @@
 //now let's try something new
 //with new type of object in JavaScript
 let Alian = {
-    name: 'altos'
-     age: 1900
-type : 'harvivorus'
-gender:'mail'
-speceship = {
-    TopSpeed : 12000
-    wheels : 2
-booster :'altrapro'
+    name: 'altos',
+    age: 1900,
+    type : 'harvivorus',
+    gender:'mail',
+    speceship : {
+    TopSpeed : 12000,
+    wheels : 2,
+    booster :'altrapro',
 }
 }
 //this is nothing but the conplext object
-console.log(Alian.spaceship.wheels);
+console.log(Alian.speceship.wheels);
 
 
