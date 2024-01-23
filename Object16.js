@@ -30,6 +30,6 @@ let Alian = {
 
 //now i want to delete some properties form the created object 
 
-delete spaceship.wheels
+delete Alian.speceship.wheels
 console.log(Alian)
 
