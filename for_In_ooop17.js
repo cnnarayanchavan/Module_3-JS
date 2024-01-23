@@ -4,16 +4,18 @@ let Animal = {
   Eyes:2,
   Legs:4,
   horn:2,
-  gender:mail,
+  gender:'male',
   Herbivores:{
-    sound : 'mooving',
-    eat:'grass';
+    sound:'mooving',
+    eat:'grass',
 }
-    console.log(Animal.Herbivores.eat.skin?)
+}
+     console.log(Animal.Herbivores)
 
-for(let key in Animal.Habivores){
-  console.log(key)
-}
+ for(let key in Animal)
+ {
+   console.log(key,Animal[key])
+   }
 
 
 
