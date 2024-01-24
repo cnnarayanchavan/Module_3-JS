@@ -1,6 +1,6 @@
 //lets revise the object and complex objects in javascript
 let obj_1_Car = {
-  Company_name:TaTa,
+  Company_name:'TaTa',
   Top_speed:233,
   Wheels:8,
   Price:546000,
