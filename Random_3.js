@@ -12,5 +12,5 @@ let obj_1_Car = {
 }
 //console.log(obj_1_Car);
 for(let key in obj_1_Car){
-  console.log(key,obj_1_Car.Tata_Punch[key])
+  console.log(key,obj_1_Car[key])
 }
