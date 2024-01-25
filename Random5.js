@@ -10,3 +10,12 @@ while(num>0){
 }
 console.log(`total digits in number is ${count} `);
 
+
+//now lets reverse the given number 
+
+num = 1392
+while(num > 0){
+  num = num / 10;
+  lastdigit = num % 10
+}
+console.log(lastdigit)
