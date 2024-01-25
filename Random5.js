@@ -5,7 +5,7 @@
 let num = 1124
 let count = 0
 while(num>0){
-  num = num / 10;
+  num = parseInt(num / 10)
   count++
 }
 console.log(`total digits in number is ${count} `);
@@ -13,12 +13,13 @@ console.log(`total digits in number is ${count} `);
 
 //now lets reverse the given number 
 
-num = 1392
-while(num > 0){
-  num = num / 10;
-  lastdigit = num % 10
-}
-console.log(lastdigit)
+ num = 1392
+ while(num > 0){
+  lastdigit = parseInt(num % 10)
+  num = parseInt(num / 10)
+  console.log(` reverse of the number is ${lastdigit}`)
+ }
+ 
 
 //is there is some mistake then it will modify in the local repo
 
