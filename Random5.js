@@ -19,3 +19,6 @@ while(num > 0){
   lastdigit = num % 10
 }
 console.log(lastdigit)
+
+//is there is some mistake then it will modify in the local repo
+
