@@ -21,4 +21,5 @@ while(num > 0){
 console.log(lastdigit)
 
 //is there is some mistake then it will modify in the local repo
+//first change
 
