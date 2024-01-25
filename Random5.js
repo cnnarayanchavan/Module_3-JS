@@ -22,4 +22,12 @@ console.log(`total digits in number is ${count} `);
  
 
 //is there is some mistake then it will modify in the local repo
+//first change
+//second change
+//third change 
+//fourth change 
+//fifth change        
+//sixth change
+//seventh change
+//eight change    
 
