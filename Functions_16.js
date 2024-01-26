@@ -1,8 +1,8 @@
 //HERE WE ARE LEARNING ABT THE FUNCTIONS IN JS
 //FUNCTIONS IN JS IS PREEY SIMILAR TO THE FUNCTIONS IN C(PROGRAMMING LANGUAGE)
 function add(){
-  let a=90;
-  let b=99;
+  let a=100;
+  let b=100;
   let c =a+b;
   console.log(c);
 }
@@ -10,30 +10,24 @@ add();
 
 
 // here the function without name is anonymous
-
-function calculator(){
-  let num1 = 3
-  let num2 = 3
-  let operations = 'addi'
-  console.log(operations)
+function calculator(num1,num2){
+let operations = 'addi'
   switch(operations){
-      case 1: 'addi' 
-      console.log(num1+num2)
+      case 'addi': 
+      console.log(num1+ num2)
       break;
-      case 2: 'subs'
+      case 'subs': 
       console.log(num1-num2)
       break;
-      case 3: 'div'
+      case 'div': 
       console.log(num1/num2)
       break;
-      case 4: 'multi'
+      case 'mult': 
       console.log(num1*num2)
       break;
     default:
-      console.log('invalid input')
+      console.log('invalid input now u have to get killed yourself')
   }
 }
-
-calculator()
-// let result = calculator()
-// console.log(result)
+let res = calculator(10,10)
+console.log(res);
