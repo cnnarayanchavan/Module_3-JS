@@ -19,15 +19,6 @@ console.log(`total digits in number is ${count} `);
   num = parseInt(num / 10)
   console.log(` reverse of the number is ${lastdigit}`)
  }
- 
 
-//is there is some mistake then it will modify in the local repo
-//first change
-//second change
-//third change 
-//fourth change 
-//fifth change        
-//sixth change
-//seventh change
-//eight change    
-
+//just we have to take the value which is actually obtained without decimal
+// date 26 janeuary 2024 in the first place edit
