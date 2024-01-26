@@ -20,4 +20,5 @@ console.log(`total digits in number is ${count} `);
   console.log(` reverse of the number is ${lastdigit}`)
  }
 
-//kust we have to take the value which is actually obtained without decimal
+//just we have to take the value which is actually obtained without decimal
+// date 26 janeuary 2024 in the first place edit
