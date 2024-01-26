@@ -6,3 +6,5 @@ Day ig it's 7  today i will going to contrubating in redme files only for being 
 but as soon as i completed my work i will be regular promise 
 and today (25th of jan) it will be just going to contabute in this readme
 
+here 26 jan (republic day)
+finally got to know and completely understood about the function in js
