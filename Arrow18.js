@@ -9,9 +9,9 @@ console.log(result)
 
 // now lets see the differenct between the normal function and the arrow function in js
 // normal function 
-let x = function (num1, num2){   //here this is the function without name wich is called 'Anonymous' function 
+function c(num1, num2){   //here this is the function without name wich is called 'Anonymous' function 
     return num1 + num2;
 }
-let z = x(100,100)
-console.log(x)
+let z = c(100,100)
+console.log(z)
 
