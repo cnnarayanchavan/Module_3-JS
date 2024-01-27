@@ -15,3 +15,5 @@ let x = function (num1, num2){   //here this is the function without name wich i
 let z = x(100,100)
 console.log(x)
 
+// so here we save the memory and the code is less using arrow functions
+
