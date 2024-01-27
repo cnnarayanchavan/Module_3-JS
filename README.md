@@ -9,3 +9,5 @@ and today (25th of jan) it will be just going to contabute in this readme
 here 26 jan (republic day)
 finally got to know and completely understood about the function in js
 changes in random5.js on local machine
+
+//now the methods in js 
