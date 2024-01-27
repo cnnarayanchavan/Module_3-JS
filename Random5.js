@@ -22,3 +22,25 @@ console.log(`total digits in number is ${count} `);
 
 //just we have to take the value which is actually obtained without decimal
 // date 26 janeuary 2024 in the first place edit
+
+// lets revise object in js
+
+let obj_1 ={
+  name : 'Narayana',
+  age : 18,
+  marks : 90,
+  college : 'rmdssoe',
+  //lets revise complex onject 
+  Lecture : {
+    name:'java',
+    duration:'30 min',
+    faculty_name:'ms xyz'
+  }
+}
+console.log(obj_1.name);
+for(let key in obj_1){
+  console.log(key,obj_1[key]);
+
+}
+
+
