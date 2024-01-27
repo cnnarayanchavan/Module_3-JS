@@ -6,8 +6,9 @@ let obj1 ={
   age:21,
   prn:1234,
   //greet:function() => console.log('hey ${this.firstname} ${this.lastname} welcome to communaty and please enter your ${this.age}')
+  //here we have to use the back tick for showing properties in the function 
   greet:function(){
-    console.log('hey ${this.firstname} ${this.lastname} welcome to communaty and please enter your ${this.age}')
+    console.log(`hey ${this.firstname} ${this.lastname} welcome to communaty and please enter your ${this.age}`)
   }
 }
 obj1.greet();
