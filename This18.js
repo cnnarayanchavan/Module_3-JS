@@ -1,4 +1,4 @@
-//Use of this in js
+//Use of 'this'  keyword in js
 
 let obj1 ={
   firstname:'narayan',
@@ -8,3 +8,4 @@ let obj1 ={
   greet:function()=> 'hey ${this.firstname} ${this.lastname} welcome to communaty and please enter your ${this.age}'
 }
 obj1.greet();
+ 
