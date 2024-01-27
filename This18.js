@@ -5,13 +5,13 @@ let Student = {
   Division:'B',
   Subject:'Advance_SQL',
   PRNumber:'72158292D',
-  Name: {
-    ID:0011,
-    name:'Narayan Chavan',
-    Add:'Gavane Chwok Parbhani',
-    Gender:'Male',
-  }
-  Qualification: function(){
+  // Name: {
+  //   ID:1100,
+  //   name:'Narayan Chavan',
+  //   Add:'Gavane Chwok Parbhani',
+  //   Gender:'Male',
+  // }
+  Qualificationx: function(){
   console.log('Distinction from Bal Vidhya Mandir');
 }
 }
