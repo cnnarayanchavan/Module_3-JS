@@ -6,6 +6,7 @@ function funAdd (Num1,num2) {
   this.work=function(){
     console.log('Adding two number')
 }
+}
 
 //now here lets create objects of that constructor function
   let A = new funAdd(12,12)
