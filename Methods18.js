@@ -6,11 +6,11 @@ let Laptop = {
   processor : 'i5',
   Generatiomn : '9th',
   Ram : '16gb',
-  function Processor =>{
+  Processor : () => {
   console.log("High processor with intel i5 9th gen engine additionaly it comes with tow thermal pests")
   }  
 }
 for(let key in Laptop){
-  console.log(key , Laptop[kary])
+  console.log(key , Laptop[kay])
 }
-processor()
+Processor()
