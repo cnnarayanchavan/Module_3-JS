@@ -7,7 +7,7 @@ let obj1 ={
   prn:1234,
   //greet:function() => console.log('hey ${this.firstname} ${this.lastname} welcome to communaty and please enter your ${this.age}')
   greet:function(){
-    console.log('hey ${this.firstname} ${this.lastname} welcome to communaty and please enter your ${this.age}'
+    console.log('hey ${this.firstname} ${this.lastname} welcome to communaty and please enter your ${this.age}')
   }
 }
 obj1.greet();
