@@ -1,8 +1,8 @@
 //lets create multipel methods calls
 
-function funAdd (Num1,num2) {
-  this.num1 = Num1
-  this.num2 = Num2
+function funAdd (Num1,Num2) {
+  this.a = Num1
+  this.b = Num2
   this.work=function(){
     console.log('Adding two number')
 }
