@@ -15,3 +15,5 @@ function c(num1, num2){   //here this is the function without name wich is calle
 let z = c(100,100)
 console.log(z)
 
+// so here we save the memory and the code is less using arrow functions
+
