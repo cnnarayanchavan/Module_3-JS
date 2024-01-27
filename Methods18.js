@@ -13,4 +13,7 @@ let Laptop = {
 for(let key in Laptop){
   console.log(key , Laptop[key])
 }
-console.log(Processor());
+
+//so here we define the method in the boject so we have to call the method using the '.' keyword
+Laptop.Processor();
+//console.log(Processor());
