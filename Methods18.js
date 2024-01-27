@@ -13,4 +13,4 @@ let Laptop = {
 for(let key in Laptop){
   console.log(key , Laptop[key])
 }
-Processor();
+console.log(Processor());
