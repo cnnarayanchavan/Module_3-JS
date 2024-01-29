@@ -5,7 +5,7 @@ let Narayan = function(Firstname,Lastname){  //this is called anonamous function
   this.firstname = Firstname;
   this.lastname = Lastname;
   this.greet = function (){
-    console.table([Firstname,Lastname]);
+    console.table("Hello there!!");
   }
 }
 let obj1 = new Narayan('Narya','Chavan');
