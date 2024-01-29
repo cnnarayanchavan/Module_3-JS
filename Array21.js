@@ -25,5 +25,7 @@ console.log(arr1[3]);
 let array = ['Narayan', 1392002, Qualification={marks: 90, sgpa:'8.80'}, function Add(n1,n2){console.log(n1+n2)}];  //here we use arrow function but the thing is we cannot use the array function as it is in such objects like array
 console.log(array);
 //console.log(array.Add(10,10));
-//console.log(array.Qualification.sgpa);
-console.log(typeof(array));
+//console.log(array.Qualification.sgpa);  //see here we cannot fetch element form array like this we use index number here to do that 
+
+let A = array[3]();
+console.log(A);
