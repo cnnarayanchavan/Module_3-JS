@@ -18,3 +18,5 @@ console.table([obj1,obj2])
 // now what if i change the elast of the second candidate 
 obj2.Lastname = 'Gadkari';
 console.table([obj1,obj2]);
+//changed 'Lastname' let me print it in simple way instaed og printing in table format
+console.log(obj2)
