@@ -8,5 +8,7 @@ let Narayan = function(Firstname,Lastname){  //this is called anonamous function
     console.table("Hello there!!");
   }
 }
+//here i wnat to create two instances of the constructor function 
 let obj1 = new Narayan('Narya','Chavan');
-console.log(obj1);
+let obj2 = new Narayan('Nitin' , 'Chavan')
+console.log(obj1,obj2);
