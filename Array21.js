@@ -16,3 +16,7 @@ console.log(arr1);
 //also we will check the length of an  both arrays
 console.log(`Length of an arrays: ${arr1.length}`);
 
+//now lets check some additional operations
+
+//1] let's fetch elements using index number 
+console.log(arr1[3]);
