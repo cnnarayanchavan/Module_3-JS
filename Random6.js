@@ -13,4 +13,4 @@ let obj1 = new Narayan('Narya','Chavan');
 let obj2 = new Narayan('Nitin' , 'Chavan')
 console.log(obj1,obj2);
 //what if i print this in table format using 
-console.table([obj1,obj2s])
+console.table([obj1,obj2])
