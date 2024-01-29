@@ -14,6 +14,5 @@ console.log(Arr1);
 arr1 = ['Narayana','Nitin','Pooja', 'Aarti', 'Chota Chiikuu'];
 console.log(arr1);
 //also we will check the length of an  both arrays
-console.log(arr1.length);
-console.log(Arr1.length);
+console.log(`Length of an arrays: ${arr1.length}`);
 
