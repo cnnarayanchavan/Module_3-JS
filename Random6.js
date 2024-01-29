@@ -14,3 +14,7 @@ let obj2 = new Narayan('Nitin' , 'Chavan')
 console.log(obj1,obj2);
 //what if i print this in table format using 
 console.table([obj1,obj2])
+
+// now what if i change the elast of the second candidate 
+obj2.Lastname = 'Gadkari';
+console.table([obj1,obj2]);
