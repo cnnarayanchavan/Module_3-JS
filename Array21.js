@@ -20,3 +20,9 @@ console.log(`Length of an arrays: ${arr1.length}`);
 
 //1] let's fetch elements using index number 
 console.log(arr1[3]);
+
+//now lets create the array with the mix data in it
+let array = ['Narayan', 1392002, Qualification={marks: 90, sgpa:'8.80'}, Add=>(n1,n2) console.log(n1+n2)];
+console.log(array);
+console.log(array.add(10,10));
+console.log(array.Qualification.sgpa);
