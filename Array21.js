@@ -5,7 +5,7 @@ let arr1 = [];         // and this is another type of creating an arrays in js
 //so here we will fo with 1st method
 
 Arr1.push(1);
-Arr1.puch(1);
-Arr1.puch(2);
-Arr1.puch(4);
+Arr1.push(1);
+Arr1.push(2);
+Arr1.push(4);
 console.log(Arr1);
