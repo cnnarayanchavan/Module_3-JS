@@ -27,5 +27,5 @@ console.log(array);
 //console.log(array.Add(10,10));
 //console.log(array.Qualification.sgpa);  //see here we cannot fetch element form array like this we use index number here to do that 
 
-let A = array[3](10,10);
-console.log(A);
+array[3](10,10);
+
