@@ -4,6 +4,8 @@
 let Narayan = function(Firstname,Lastname){  //this is called anonamous function means function without name
   this.firstname = Firstname;
   this.lastname = Lastname;
-  this.greet = function => console.table([Firstname,Lastname]);
+  this.greet = function (){
+    console.table([Firstname,Lastname]);
+  }
 }
 let obj1 = new Narayan('Narya','Chavan');
