@@ -28,4 +28,3 @@ console.log(array);
 //console.log(array.Qualification.sgpa);  //see here we cannot fetch element form array like this we use index number here to do that 
 
 array[3](10,10);
-
