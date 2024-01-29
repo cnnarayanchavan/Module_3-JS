@@ -9,3 +9,4 @@ let Narayan = function(Firstname,Lastname){  //this is called anonamous function
   }
 }
 let obj1 = new Narayan('Narya','Chavan');
+console.log(obj1);
