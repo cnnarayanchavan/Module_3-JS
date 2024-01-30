@@ -41,5 +41,7 @@ Arr1.splice(5,1);
 console.log('This is the arr1 after slice the last element')
 console.log(Arr1);
 
+Arr1.splice(2,3,10);
+console.log(Arr1);
 
 
