@@ -37,11 +37,14 @@ console.log(Arr1);
 //syntax is like
 // Arr1.splice(<index number> , <number of element u want to splice> , <the no. of element u want to add>)
 
-Arr1.splice(5,1);
-console.log('This is the arr1 after slice the last element')
+Arr1.splice(4,1);
+console.log('This is the arr1 after slice the element at index "4"')
 console.log(Arr1);
 
-Arr1.splice(2,3,10);
+
+
+Arr1.splice(2,3,10,11,12);  //now here we remove element of index 3 with three elemnts and add further new three elements as per syntax
+console.log("So this is the arr1 after removing and adding again elements in it");
 console.log(Arr1);
 
 
