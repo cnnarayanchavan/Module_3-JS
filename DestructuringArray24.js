@@ -16,13 +16,15 @@ let n2 = 200;
 console.log(n1,n2);
 
 
-//now lets rtry somthing else with destructuring array;
+//now lets try somthing else with destructuring array;
 // now lets split this string 
-let strArr ="Narayan Chavan from RMDSSOE".split(" ");
-console.log(strArr);
+let strArr ="Narayan Chavan from RMDSSOE And currentely I'am Pursing IT".split(" ");
+//console.log(strArr);
+let[w,x, ,z]=strArr;
+console.log(w);
+//now lets use ...(Trippel dot to print rest element in array)
+console.log(w,x, ...z);
 
 
 
-
-
-
+//SO THIS IS ALL ABOUT THE DESTRUCTURING ARRAY
