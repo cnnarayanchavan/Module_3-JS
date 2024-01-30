@@ -26,11 +26,11 @@ console.log(Arr1);
 
 //now lets shift some elemetnts to left and right 
 Arr1.shift(); 
-console.log('This is the Arr1 after shift the arr1');              //it will remove element from the start of an array
+console.log('This is the Arr1 after shift to the LHS the arr1');              //it will remove element from the start of an array
 console.log(Arr1);          // it works as a pop but it will pop element from start of an array
 
 Arr1.unshift(1);    
-console.log('And this is the arr1 after adding element from start');         //on the othe hand the unshift will add an element in array from the start 
+console.log('And this is the arr1 after adding element from start RHS');         //on the othe hand the unshift will add an element in array from the start 
 console.log(Arr1);
 
 //now splic some elements fom an array hehehehehe
