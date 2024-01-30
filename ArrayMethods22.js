@@ -33,4 +33,13 @@ Arr1.unshift(1);
 console.log('And this is the arr1 after adding element from start');         //on the othe hand the unshift will add an element in array from the start 
 console.log(Arr1);
 
+//now splic some elements fom an array hehehehehe
+//syntax is like
+// Arr1.splice(<index number> , <number of element u want to splice> , <the no. of element u want to add>)
+
+Arr1.splice(5,1);
+console.log('This is the arr1 after slice the last element')
+console.log(Arr1);
+
+
 
