@@ -4,8 +4,8 @@ let Arr1 = new Array();
 Arr1.push(1,2,3,4,5,6)
 //console.log(Arr1);
 
-let[a,b,c,d,e,f]=Arr1;
-//console.log(`Value of a is : ${a}`); 
+let[a,b,c,d, ,f]=Arr1;    // hre i removed e which is the value for index 4 but i left the , thrre so the js will comsider as empty space and still it work
+console.log(a,b,c,d,f); 
 
 
 //here we can swap value veryyyy easily by using the destructuring the array
@@ -15,9 +15,13 @@ let n2 = 200;
 [n1,n2] = [n2,n1];
 console.log(n1,n2);
 
-//Added new filr (Destructuing array in js)
+
 //now lets rtry somthing else with destructuring array;
 let strArr ="Narayan Chavan from RMDSSOE and he is the tech explorer";
 console.log(strArr);
+// now lets split this string 
+strArr.split(" ");
+
+
 
 
