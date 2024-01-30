@@ -2,9 +2,10 @@
 
 
 
-let arr1 = [];
-arr1[0] = 10;
-arr1[4] =40;
+// let arr1 = [];
+// arr1[0] = 10;
+// arr1[4] =40;  
+let arr1 = [10,20,30,40,50]
 for(let n of arr1){   // here n is the variable which holdes a single at a time of an elemetn of array
   console.log(n)
 }
