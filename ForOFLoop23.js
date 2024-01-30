@@ -18,5 +18,5 @@ for(let key in arr1){
   console.log(key)   // here it will print the key which is the index number of an elements
   //AND
   console.log(arr1[key]);  // this is for fetching the values of the keys 
-  
+
 }
