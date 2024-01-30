@@ -17,3 +17,7 @@ Arr1.push(1,2,3,4,5,6,7,8,9,10);
 //now let pop some elements //we have to give the index number of element that we want to pop
 Arr1.pop(9);
 console.log(Arr1);
+
+//let pop in one go
+Arr1.pop(6,7,8);
+console.log(Arr1);
