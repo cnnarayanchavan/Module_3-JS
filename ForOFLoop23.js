@@ -2,7 +2,11 @@
 
 
 
-let arr1 = [11,12,13,14,15];
-for(let n of arr1){
-  console.log(arr1)
+let arr1 = [];
+arr1[0] = 10;
+arr1[4] =40;
+for(let n of arr1){   // here n is the variable which holdes a single at a time of an elemetn of array
+  console.log(n)
 }
+console.log(`Length of an array := ${arr1.length}`);
+
