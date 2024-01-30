@@ -1,4 +1,4 @@
-//lets see the differenct methods of an array we have studide in this lectres
+//lets see the differnt methods of an array we have studide in this lectres
 //1] .push();    +++ append (add an element) at the end of the array
 
 //2] .pop();     +++ pop oot the element(last element) like (FILO) from an array
@@ -47,5 +47,5 @@ Arr1.splice(2,3,10,11,12);  //now here we remove element of index 3 with three e
 console.log("So this is the arr1 after removing and adding again elements in it");
 console.log(Arr1);
 
-
+//SO THIS IS THE FIVE DIFF. METHODS IN ARRAYS USED FOR SOLWING QUESTIONS 
 
