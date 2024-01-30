@@ -17,10 +17,11 @@ console.log(n1,n2);
 
 
 //now lets rtry somthing else with destructuring array;
-let strArr ="Narayan Chavan from RMDSSOE and he is the tech explorer";
-console.log(strArr);
 // now lets split this string 
-strArr.split(" ");
+let strArr ="Narayan Chavan from RMDSSOE and he is the tech explorer".split(" ");
+console.log(strArr);
+
+
 
 
 
