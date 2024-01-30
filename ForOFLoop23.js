@@ -15,8 +15,11 @@ console.log(`Length of an array := ${arr1.length}`);
 //now here we can also used the 'for in loop' in array for key and value 
 
 for(let key in arr1){
-  console.log(key)   // here it will print the key which is the index number of an elements
+  //console.log(key)   // here it will print the key which is the index number of an elements
   //AND
-  console.log(arr1[key]);  // this is for fetching the values of the keys 
+  console.log(key,arr1[key]);  // this is for fetching the values of the keys 
 
 }
+
+
+//this is how we use for of loop on js in Array os js
