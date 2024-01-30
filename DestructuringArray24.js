@@ -15,5 +15,9 @@ let n2 = 200;
 [n1,n2] = [n2,n1];
 console.log(n1,n2);
 
-
+//Added new filr (Destructuing array in js)
 //now lets rtry somthing else with destructuring array;
+let strArr ="Narayan Chavan from RMDSSOE and he is the tech explorer";
+console.log(strArr);
+
+
