@@ -11,6 +11,6 @@
 
 
 let Arr1 = [];  //empty array
-Arr1.push(1,2,3,4,5,6,7,8,9,10);
+Arr1.push(1,2,3,4,5,6);
 console.log(Arr1);
   
