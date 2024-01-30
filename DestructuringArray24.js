@@ -18,7 +18,7 @@ console.log(n1,n2);
 
 //now lets rtry somthing else with destructuring array;
 // now lets split this string 
-let strArr ="Narayan Chavan from RMDSSOE and he is the tech explorer".split(" ");
+let strArr ="Narayan Chavan from RMDSSOE".split(" ");
 console.log(strArr);
 
 
