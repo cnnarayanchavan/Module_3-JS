@@ -7,7 +7,7 @@
 
 //4] .unshift(); +++ shift the element of an array to the RHS (unshifting)
 
-//5] .splic();   +++ 
+//5] .splic();   +++ it will delete the element of mentinode index
 
 //6] .split();   +++ slpits an values of an variables in array form (values could be NUmber, String etc)
 
