@@ -11,3 +11,4 @@ finally got to know and completely understood about the function in js
 changes in random5.js on local machine
 
 //now the methods in js 
+today i published new blog ( my first blog) so now i am contributing in redmi for today 
