@@ -19,4 +19,4 @@ today i published new blog ( my first blog) so now i am contributing in redmi fo
 # ready one tready 2
 # ready 2 ready 3AND SOO ON OG THE GOE
 // last three minutes for the same work of contributatiinn 
-
+// Last 2 mins of contributation and the other thins
