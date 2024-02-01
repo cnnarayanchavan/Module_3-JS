@@ -8,7 +8,7 @@ console.log(array);
 //3rd reducr() it
 //he he he he 
 array.filter(n => n%2!=0)
-  //array.map(n*2);
+  .map(n*2);
   .forEach(n=>{
     console.log(n)
   })
