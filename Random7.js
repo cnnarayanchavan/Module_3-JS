@@ -13,5 +13,7 @@ arr1.forEach((num)=> {
 
 let A =[10,20,30,40,50];
 for(let n of A){
-    console.log(A);
+    console.log(A);  // it will print the entire array here 
+    console.log(n);  // and this will print the elements in array not entire array same as forEach() method   
+    
 }
