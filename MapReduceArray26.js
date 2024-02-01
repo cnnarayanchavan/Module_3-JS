@@ -7,8 +7,9 @@ console.log(array);
 //2nd map() it
 //3rd reducr() it
 //he he he he 
-array.filter(n => n%2!=0)
-  array.map(n*2);
-  array.forEach(n=>{
-    console.log(n)
-  })
+let res =array.filter(n => n%2!=0)
+    .map(n => n+2)  // i dont understand why do sw use the array fucntion here again and again
+    .reduce((a,b) => a+b);
+    console.log(res);
+
+
