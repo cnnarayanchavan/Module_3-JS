@@ -6,7 +6,7 @@ arr1.forEach((num)=> {
     //if(num % 2 ===0){
         console.log(num**2)
     }
-});
+);
   
 //OKAY here the for rach and the for of loop of aaray does the samw work UKKK//!!!
 //let's try and revise the for off loop in js.
