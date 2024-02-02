@@ -5,6 +5,7 @@
 // Reduce
 
 //let Arr = [1,13,5,13,26,20]
+//First problem Statement : fetch only the male user's data
 let Arr = [User1={Firstname:'Narayan',Lastname:'Chavan',Age:21,Gender:'Male'},
           User2={Firstname:'Nitin',Lastname:'Chavan',Age:30,Gender:'Male'},
           User3={Firstname:'Sanjay',Lastname:'Chavan',Age:50,Gender:'Male'},
