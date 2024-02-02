@@ -16,7 +16,7 @@ let Arr = [User1={Firstname:'Narayan',Lastname:'Chavan',Age:21,Gender:'Male'},
 //Arr.filter(Vare1=>User1.Gender=="Male")
 Arr.forEach(Vare2=>{
           if(Vare2.Gender==='Male'){
-                    console.log(Vare2.Firstname + "  " + Vare2.Lastname)
+                    console.log(Vare2)
           }
           else{
                     console.log("Female");
