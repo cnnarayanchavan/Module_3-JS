@@ -6,6 +6,7 @@
 
 //let Arr = [1,13,5,13,26,20]
 //First problem Statement : fetch only the male user's data
+//second problem statement : fetch only Username of male users
 let Arr = [User1={Firstname:'Narayan',Lastname:'Chavan',Age:21,Gender:'Male'},
           User2={Firstname:'Nitin',Lastname:'Chavan',Age:30,Gender:'Male'},
           User3={Firstname:'Sanjay',Lastname:'Chavan',Age:50,Gender:'Male'},
@@ -14,9 +15,6 @@ let Arr = [User1={Firstname:'Narayan',Lastname:'Chavan',Age:21,Gender:'Male'},
 // console.log("This is the arr");          
 // console.log(Arr);
 //Arr.filter(Vare1=>User1.Gender=="Male")
-Arr.forEach(Vare2=>{
-          if(Vare2.Gender==='Male'){
-                    console.log(Vare2)
-          }
-});
+Arr.forEach(Vare2=>if(Vare2.Gender==='Male'));
+Arr.map(Vare1 => console.log(Vare1.Firstname + " " + Vare1.Lastname));
 
