@@ -18,8 +18,5 @@ Arr.forEach(Vare2=>{
           if(Vare2.Gender==='Male'){
                     console.log(Vare2)
           }
-          else{
-                    console.log("Female");
-          }
 });
 
