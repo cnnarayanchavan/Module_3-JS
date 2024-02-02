@@ -9,3 +9,11 @@ a.add(14);
 a.add(15);
 a.add(12);
 console.log(a)
+
+let S = new Set();
+S.add(1);
+S.add(2);
+S.add(3);
+S.add(4);
+S.add(5);
+console.log(S);
