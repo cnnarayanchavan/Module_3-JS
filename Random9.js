@@ -10,4 +10,7 @@ let Arr = [User1={Firstname:'Narayan',Lastname:'Chavan',Age:21,Gender:'Male'},
           User3={Firstname:'Sanjay',Lastname:'Chavan',Age:50,Gender:'Male'},
           User1={Firstname:'Renuka',Lastname:'Dalwe',Age:27,Gender:'female'},
           User1={Firstname:'Bharati',Lastname:'Chavan',Age:48,Gender:'femal'},]
-console.log(Arr.length(i));
+console.log(Arr.length,Arr);
+Arr.filter(Vare1=>Vare1.Gender=="Male")
+Arr.forEach(Vare2=>console.log(Vare2));
+
