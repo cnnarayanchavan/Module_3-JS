@@ -22,8 +22,6 @@ Userdata.set("Nitin Chavan" , 130000);
 Userdata.set("Sanjay Chavan" , 500000);
 Userdata.set("Renuka Chavan" , 89000);
 console.log(Userdata);
-let ans = Userdata.get("Renuka Chavan")
-console.log(ans);
 
 //and for printing the keys and values we can use for of loop as well
 for(let [k , v ] of Userdata){
