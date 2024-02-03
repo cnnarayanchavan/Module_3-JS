@@ -8,13 +8,27 @@ map.set("Bharati", 48);
 map.set("Sanjay", 50);
 //now here if we change the age of sanjay here it will update the value of it instead of adding in Map 
 map.set("Sanjay",52);
-console.log(map);
+//console.log(map);
 
 // now let's use the forEach() higher order function in this Map 
 map.forEach(value => {
-    console.log(value)
+    //console.log(value)
 })
 
 // problem statement : u have given an Map with user data collections with there names and salary fetch the username and salary of an user which has salary greater than 5000.
-let Userdata = new Map("Narayan Chavan" , 67800);
+let Userdata = new Map();
+Userdata.set("Narayan Chavan",54600);
+Userdata.set("Nitin Chavan" , 130000);
+Userdata.set("Sanjay Chavan" , 500000);
+Userdata.set("Renuka Chavan" , 89000);
 console.log(Userdata);
+let ans = Userdata.get("Renuka Chavan")
+console.log(ans);
+
+//and for printing the keys and values we can use for of loop as well
+for(let [k , v ] of Userdata){
+    console.log(k+ " : " +v)
+}
+
+//now lets execute the actual problem statment 
+Userdata.map()
