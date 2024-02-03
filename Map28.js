@@ -29,5 +29,6 @@ for(let [k , v ] of Userdata){
 }
 
 // fetch the perticular value for an collection of data
-let fetch = Userdata.get("Nitin Chavan", "Sanjay Chavan");
+//we can get one value at a time using the "get" method 
+let fetch = Userdata.get("Nitin Chavan");
 console.log(fetch)
