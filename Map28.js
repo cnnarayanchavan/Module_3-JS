@@ -14,3 +14,7 @@ console.log(map);
 map.forEach(value => {
     console.log(value)
 })
+
+// problem statement : u have given an Map with user data collections with there names and salary fetch the username and salary of an user which has salary greater than 5000.
+let Userdata = new Map("Narayan Chavan" , 67800);
+console.log(Userdata);
