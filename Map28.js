@@ -15,7 +15,7 @@ map.forEach(value => {
     //console.log(value)
 })
 
-// problem statement : u have given an Map with user data collections with there names and salary, fetch the username and salary of an user which has salary greater than 5000.
+// problem statement : u have given an Map with user data collections with there names and salary, fetch the username and salary of an users.
 let Userdata = new Map();
 Userdata.set("Narayan Chavan",54600);
 Userdata.set("Nitin Chavan" , 130000);
@@ -29,10 +29,4 @@ console.log(ans);
 for(let [k , v ] of Userdata){
     console.log(k+ " : " +v)
 }
-Userdata.filter(x => {
-    if(x.Userdata === "Renuka Chavan"){
-        console,log("She is female user")
-    }
-})
-// we can use fo in loop but just for fetchinf the key of an Map
 
