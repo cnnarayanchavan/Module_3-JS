@@ -28,3 +28,6 @@ for(let [k , v ] of Userdata){
     console.log(k+ " : " +v)
 }
 
+// fetch the perticular value for an collection of data
+let fetch = Userdata.get("Nitin Chavan", "Sanjay Chavan");
+console.log(fetch)
