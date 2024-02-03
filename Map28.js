@@ -30,7 +30,7 @@ for(let [k , v ] of Userdata){
     console.log(k+ " : " +v)
 }
 Userdata.filter(x => {
-    if x.Userdata == "Renuka Chavan"{
+    if(x.Userdata === "Renuka Chavan"){
         console,log("She is female user")
     }
 })
