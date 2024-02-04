@@ -37,7 +37,7 @@
 // console.log(`there will be total ${sum} digits in numbers.`);
 
 //another function for map
-Arr.forrEach(s => {
+Arr.forEach(s => {
  consol.log(s*2)
 })
 
