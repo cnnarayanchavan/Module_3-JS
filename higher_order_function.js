@@ -14,4 +14,4 @@ function addition(num1 , num2){
     console.log("Invalid Input")
   }
 }
-console.log(addition(20,20))
+console.log(addition(20,30))
