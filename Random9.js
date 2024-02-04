@@ -15,5 +15,5 @@ let Arr = [{Firstname:'Narayan',Lastname:'Chavan',Age:21,Gender:'Male'},
                   }
         }
 
-          let Output = Arr.map(firstname(Arr))
+          let Output = Arr.map(firstName(Arr))
 console.log(Output)
