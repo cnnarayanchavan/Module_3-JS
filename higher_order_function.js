@@ -17,16 +17,16 @@
 // console.log(addition(20,30))
 
 //Fun2.
-let Arr = [1,24,9,20,5,96]
-function returnEven(x){
-for(i=0; i<Arr.length; i++){
-  if(Arr[i] % 2 ===0){
-    console.log(Arr[i]);
-  }
-}
-}
-const op = console.log(returnEven(Arr))
-console.log(op);
+ let Arr = [1,24,9,20,5,96]
+// function returnEven(x){
+// for(i=0; i<Arr.length; i++){
+//   if(Arr[i] % 2 ===0){
+//     console.log(Arr[i]);
+//   }
+// }
+// }
+// const op = console.log(returnEven(Arr))
+// console.log(op);
 
 // let a = 100;
 // let sum = 0;
@@ -36,3 +36,7 @@ console.log(op);
 // }
 // console.log(`there will be total ${sum} digits in numbers.`);
 
+let op = Arr.map(x => {
+  return x>30;
+})
+console.log(op);
