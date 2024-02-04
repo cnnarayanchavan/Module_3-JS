@@ -38,7 +38,7 @@
 
 //another function for map
 Arr.forEach(s => {
- consol.log(s*2)
+ console.log(s*2)
 })
 
 const op = Arr.map(x => {
