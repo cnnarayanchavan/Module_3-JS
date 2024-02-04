@@ -14,6 +14,5 @@ let Arr = [{Firstname:'Narayan',Lastname:'Chavan',Age:21,Gender:'Male'},
                     console.log(Arr.Firstname)
                   }
         }
-
-          let Output = Arr.map(firstName(Arr))
-console.log(Output)
+let op =console.log(firstName(Arr));
+console.log(op);
