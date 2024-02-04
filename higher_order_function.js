@@ -41,13 +41,13 @@ Arr.forEach(s => {
  console.log(s*2)
 })
 
-const op = Arr.map(x => {
+function returngretar(x) {
   if(x > 30){
    return x;
   }
-})
+}
+let ans = console.log(Arr.map(returngretar));
 Arr.forEach( x => {
   console.log(x);
 })
   
-console.log(op);
