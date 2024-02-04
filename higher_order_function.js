@@ -36,6 +36,11 @@
 // }
 // console.log(`there will be total ${sum} digits in numbers.`);
 
+//another function for map
+Arr.forrEach(s => {
+ consol.log(s*2)
+})
+
 const op = Arr.map(x => {
   if(x > 30){
    return x;
