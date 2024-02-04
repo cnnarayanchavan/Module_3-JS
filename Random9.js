@@ -4,9 +4,16 @@ let Arr = [{Firstname:'Narayan',Lastname:'Chavan',Age:21,Gender:'Male'},
           {Firstname:'Renuka',Lastname:'Dalwe',Age:27,Gender:'female'},
           {Firstname:'Bharati',Lastname:'Chavan',Age:48,Gender:'femal'}]
 
-          op = Arr.map(x => {
-            if (x.Age<30) {
-            console.log(x.Firstname)
-          }}
-          )
-        
+          // op = Arr.map(x => {
+          //   if (x.Age<30) {
+          //   console.log(x.Firstname)
+          // }}
+          // )
+        function firstName(Arr){
+                  if(Arr.Age<30){
+                    console.log(Arr.Firstname)
+                  }
+        }
+
+          let Output = Arr.map(Firstname(Arr))
+console.log(Output)
