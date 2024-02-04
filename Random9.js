@@ -4,8 +4,9 @@ let Arr = [{Firstname:'Narayan',Lastname:'Chavan',Age:21,Gender:'Male'},
           {Firstname:'Renuka',Lastname:'Dalwe',Age:27,Gender:'female'},
           {Firstname:'Bharati',Lastname:'Chavan',Age:48,Gender:'femal'}]
 
-          Arr.filter(val => val.Age<30)
-console.log(val)
+          const op =Arr.filter(x => x.Age<30)
+
+          console.log(op)
 //         function firstName(Arr){
 //                   if(Arr.Age<30){
 //                     console.log(Arr.Firstname)
