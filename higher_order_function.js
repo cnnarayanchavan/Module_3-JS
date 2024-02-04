@@ -36,7 +36,9 @@
 // }
 // console.log(`there will be total ${sum} digits in numbers.`);
 
-let op = Arr.map(x => {
-  return x>30;
+const op = Arr.map(x => {
+  if(x > 30){
+   return x;
+  }
 })
 console.log(op);
