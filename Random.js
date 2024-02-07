@@ -28,3 +28,6 @@ while(number>0){
 }
  console.log("Toral digits in number is : "+count);
 
+
+//now lets fetch the max number inside the array
+
