@@ -32,9 +32,9 @@ while(number>0){
 //now lets fetch the max number inside the array
 const arr1 = [34,54,65,34,67,55];
 let max = 0;
-for(i=0; i<arr1.length; i++){
-  if(max<arr1){
-    max = arr1;
+for(i=0; i<arr1[i].length; i++){
+  if(max<arr1[i]){
+    max = arr1[i];
   }
 }
 console.log(max)
