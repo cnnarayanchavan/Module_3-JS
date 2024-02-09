@@ -1,9 +1,9 @@
 //let's revise some jS concepts
 let arr =[5,5,5,5,5,10]
-let arr = [username : "Upgreadxlr8", id : 200, age: 21,
+let arr2 = [username : "Upgreadxlr8", id : 200, age: 21,
            username : "TinTin", id : 110, age: 29,
            username : "Xle8", id : 100, age: 22,]
-console.log(arr);
+console.log(arr2);
 
 //-----------------------------------------------------------------------------------------------//
 // //print max number
