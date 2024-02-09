@@ -37,23 +37,27 @@ console.log(arr);
 
 //-----------------------------------------------------------------------------------------------//
 //now lets create an object first in js
-let obj1 = {username:"Upgread", id : 110, age : 21,};
-obj2 = {username:"TinTin", id : 112, age : 29,};
-obj3 = {username:"XLR8", id : 111, age : 22,};
-//console.log(obj1,obj2,obj3);
-console.log(obj1.id);
+// let obj1 = {username:"Upgread", id : 110, age : 21,};
+// obj2 = {username:"TinTin", id : 112, age : 29,};
+// obj3 = {username:"XLR8", id : 111, age : 22,};
+// //console.log(obj1,obj2,obj3);
+// console.log(obj1.id);
 
 
 //--------------------------------------------------------------------------------------------------//
 //now lets understood the object inside object 
-const object1 = {
-  username : "NarayanaChavan",
-  age : 21,
-  college_name : "Rmdssoe",
-  RMDSSOE : {
-    Gread : "A++",
-    location : "Pune",
-    Branch : "IT"
-  }
-}
-console.log(object1.RMDSSOE.Gread);
+// const object1 = {
+//   username : "NarayanaChavan",
+//   age : 21,
+//   college_name : "Rmdssoe",
+//   RMDSSOE : {
+//     Gread : "A++",
+//     location : "Pune",
+//     Branch : "IT"
+//   }
+// }
+// console.log(object1.RMDSSOE.Gread);
+
+
+//-----------------------------------------------------------------------------------------------//
+//let's explore the function in js
