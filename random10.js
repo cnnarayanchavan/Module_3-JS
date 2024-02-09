@@ -1,9 +1,6 @@
 //let's revise some jS concepts
 let arr =[5,5,5,5,5,10]
-let arr2 = [username : "Upgreadxlr8", id : 200, age: 21,
-           username : "TinTin", id : 110, age: 29,
-           username : "Xle8", id : 100, age: 22,]
-console.log(arr2);
+console.log(arr);
 
 //-----------------------------------------------------------------------------------------------//
 // //print max number
@@ -38,4 +35,9 @@ console.log(arr2);
 // console.log("Total number of even elements in array is : " +sum)
 
 
-//fetch the user data using the 
+//-----------------------------------------------------------------------------------------------//
+//now lets create an object first in js
+let obj1 = {username:"Upgread", id : 110, age : 21,};
+obj2 = {username:"TinTin", id : 112, age : 29,};
+obj3 = {username:"XLR8", id : 111, age : 22,};
+console.log(obj1,obj2,obj3);
