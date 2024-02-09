@@ -1,5 +1,5 @@
 //let's revise some jS concepts
-let arr =[1,3,45,6,4,5,67]
+let arr =[5,5,5,5,5,10]
 console.log(arr);
 
 //-----------------------------------------------------------------------------------------------//
@@ -13,5 +13,11 @@ console.log(arr);
 // console.log(`max element in array is: ${max}`);
 
 //-----------------------------------------------------------------------------------------------//
+//print the total some of elements in array
+let sum = 0;
+for(i=0; i<arr.length; i++){
+  sum = sum +arr[i]
+}
+console.log( "Total sum is: " +sum)
 
 
