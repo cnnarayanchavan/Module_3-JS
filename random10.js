@@ -74,6 +74,6 @@ console.log(arr);
 //lets print the table of an given number
 let num = 12
 for(i=1; i<=10; i++){
-   num * i; 
+   num * i === num; 
   console.log(`${num} X ${i}`)
 }
