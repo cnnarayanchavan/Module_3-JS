@@ -61,3 +61,7 @@ console.log(arr);
 
 //-----------------------------------------------------------------------------------------------//
 //let's explore the function in js
+function add(num1_Number , num2_divider){
+  return num1 ** num2
+}
+console.log(add(12,12));
