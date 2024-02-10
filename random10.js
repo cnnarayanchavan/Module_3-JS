@@ -75,5 +75,5 @@ console.log(arr);
 let num = 12
 for(i=1; i<=10; i++){
    num * i === num; 
-  console.log(`${num} X ${i}`)
+  console.log(`${num} X ${i} = ${num}`)
 }
