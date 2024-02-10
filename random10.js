@@ -67,4 +67,4 @@ console.log(arr);
 function add(num1_Number , num2_divider){
   return num1_Number ** num2_divider
 }
-console.log(add(12,12));
+console.log(add(2,2));
