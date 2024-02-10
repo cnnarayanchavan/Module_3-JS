@@ -13,6 +13,8 @@ console.log(arr);
 // }
 // console.log(`max element in array is: ${max}`);
 
+
+
 //-----------------------------------------------------------------------------------------------//
 //print the total some of elements in array
 //let arr =[5,5,5,5,5,10]
@@ -21,6 +23,7 @@ console.log(arr);
 //   sum = sum +arr[i]
 // }
 // console.log( "Total sum is: " +sum)
+
 
 //-----------------------------------------------------------------------------------------------//
 //print the even number in arrays and total sum of even number
