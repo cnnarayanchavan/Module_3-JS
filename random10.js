@@ -64,10 +64,10 @@ console.log(arr);
 
 //-----------------------------------------------------------------------------------------------//
 //let's explore the function in js
-function add(num1_Number , num2_divider){
-  return num1_Number ** num2_divider
-}
-console.log(add(2,2));
+// function add(num1_Number , num2_divider){
+//   return num1_Number ** num2_divider
+// }
+// console.log(add(2,2));
 
 
 //-----------------------------------------------------------------------------------------------//
