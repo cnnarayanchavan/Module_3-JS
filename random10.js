@@ -68,3 +68,12 @@ function add(num1_Number , num2_divider){
   return num1_Number ** num2_divider
 }
 console.log(add(2,2));
+
+
+//-----------------------------------------------------------------------------------------------//
+//lets print the table of an given number
+let num = 12
+for(i=1; i<=10; i++){
+   num * num; 
+  console.log(`${num} X ${i}`)
+}
