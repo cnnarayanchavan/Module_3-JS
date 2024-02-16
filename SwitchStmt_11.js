@@ -1,5 +1,5 @@
 let Assassians;
-Assassians = 1
+Assassians = 0   // if i wnat to print the default kase 
 switch(Assassians){
 
     //Here if i remove the break  statement  then it will  print all cases output till the default statemnt 
