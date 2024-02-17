@@ -9,7 +9,8 @@ for(i=0; i<arr.length; i++){
       arr[j+1] = temp
       }
     }
-  }
-for(i=0; i<arr.length; i++){
+  for(i=0; i<arr.length; i++){
     console.log(arr[i] + " ");
 }
+
+  }
