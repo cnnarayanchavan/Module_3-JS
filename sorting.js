@@ -10,6 +10,6 @@ for(i=0; i<arr.length; i++){
     }
   }
   for(i=o; i<arr.length; i++){
-    console.log(arr[] + " ");
+    console.log(arr[i] + " ");
   }
 }
