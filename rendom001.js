@@ -5,7 +5,8 @@ let obj1 = {
   id: 1_00_00,
 }
 // using for in loop we will fetch the keys from the obj_1
-for (key in obj1){
+// for (key in obj1){
   //now fetach the value as well
+for(key in obj1[key])
   console.log(key)
 }
