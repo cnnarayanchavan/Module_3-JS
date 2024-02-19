@@ -7,6 +7,6 @@ let obj1 = {
 // using for in loop we will fetch the keys from the obj_1
 // for (key in obj1){
   //now fetach the value as well
-for(key in obj1[key])
+for(key in obj1[key]){
   console.log(key)
 }
