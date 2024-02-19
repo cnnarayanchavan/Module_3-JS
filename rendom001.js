@@ -6,5 +6,6 @@ let obj1 = {
 }
 // using for in loop we will fetch the keys from the obj_1
 for (key in obj1){
+  //now fetach the value as well
   console.log(key)
 }
