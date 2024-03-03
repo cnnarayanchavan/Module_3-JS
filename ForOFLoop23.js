@@ -9,7 +9,7 @@ let arr1 = [10,20,30,40,50]
 for(let n of arr1){   // here n is the variable which holdes a single at a time of an elemetn of array
   console.log(n)
 }
-console.log(`Length of an array := ${arr1.length}`);
+//console.log(`Length of an array := ${arr1.length}`);
 
 
 //now here we can also used the 'for in loop' in array for key and value 
