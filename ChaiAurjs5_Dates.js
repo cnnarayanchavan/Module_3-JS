@@ -1,4 +1,5 @@
 let myDate = new Date();
+console.log(typeof myDate);
 // console.log(myDate);
 
 
@@ -24,6 +25,7 @@ console.log(myDate.getMonth()+1);
 
 const fee = "5500 Pounds"
 let curDate = new Date();
-console.log(curDate);
-console.log(`Your registration fee is ${fee} and the date of registration is ${curDate.toLocaleDateString()}`);
+//const op =curDate
+//console.log(op);
+console.log(`Your registration fee is ${fee} and the yesr of registration is ${curDate}`);
  

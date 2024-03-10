@@ -4,6 +4,7 @@ let obj1 = {
   email : "cnnarayan@google.com",
 }
 
+console.log(obj1.email);
 let obj2 = obj1;
 obj2.email = "Cnnarayanchavan@gmail.com"
 console.log(obj1.email);
