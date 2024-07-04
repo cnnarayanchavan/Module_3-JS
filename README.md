@@ -41,3 +41,13 @@ this is dynamically bound. It changes depending on how the function is called.
 
 this is lexically bound. It’s set to the this value from the scope where the arrow function was defined, not where it was called.
 
+##  Defining an Object with Symbol as a Key
+
+e.g: 
+const Alian = {
+    [mySym] : 'Narayana',
+    name: 'altos',
+    age: 1900,
+}
+
+[mySym]: 'Narayana': This uses computed property names to set a property on the Alian object. The key for this property is the mySym symbol. This is an example of using a symbol as a property key.
