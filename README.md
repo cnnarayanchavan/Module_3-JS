@@ -22,3 +22,22 @@ Alian.greeting = () => {
 ## In this case, this.name would be undefined because this is not bound to the Alian object.
 
 <br/><hr/>
+
+
+
+
+## Lexical Binding Explained
+
+*Lexical Binding means that the value of this inside the arrow function is determined by the this value from the surrounding scope where the arrow function was defined.*
+
+*Visualizing Lexical Binding
+To help visualize, think of it like this:*
+
+## In Regular Functions:
+
+this is dynamically bound. It changes depending on how the function is called.
+
+## In Arrow Functions:
+
+this is lexically bound. It’s set to the this value from the scope where the arrow function was defined, not where it was called.
+
