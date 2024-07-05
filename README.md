@@ -15,9 +15,11 @@ feeling failed coz i missed one day
 *javascript
 Copy code*
 
+<code>
 Alian.greeting = () => {
     console.log(`Hello ${this.name} you are JS users`);  // this.name would be undefined
 }
+</code>
 
 ## In this case, this.name would be undefined because this is not bound to the Alian object.
 
@@ -40,14 +42,25 @@ this is dynamically bound. It changes depending on how the function is called.
 ## In Arrow Functions:
 
 this is lexically bound. It’s set to the this value from the scope where the arrow function was defined, not where it was called.
+<br/><hr/>
+
 
 ##  Defining an Object with Symbol as a Key
 
-e.g: 
+e.g:
+<code> 
 const Alian = {
     [mySym] : 'Narayana',
     name: 'altos',
     age: 1900,
 }
+</code>
 
 [mySym]: 'Narayana': This uses computed property names to set a property on the Alian object. The key for this property is the mySym symbol. This is an example of using a symbol as a property key.
+
+
+<br/><hr/>
+
+## Need to understand objects and arrays indepth from declaration to methods as we have further API feth and all they are in either array or object form [JSON object] (javascript object notation)
+
+<br/><hr/>
