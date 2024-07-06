@@ -64,3 +64,29 @@ const Alian = {
 ## Need to understand objects and arrays indepth from declaration to methods as we have further API fetch and all they are in either array or object form [JSON object] (javascript object notation)
 
 <br/><hr/>
+
+## Normal Function and Arrow function 
+
+<code>
+function invest(){
+    console.log(this);
+}
+</code>
+
+<code>
+const myFun = ()=>{
+    console.log(this);   //this will return the empty object  '{}'
+}
+
+myFun();
+</code>
+
+<h4>Here</h4>
+*In a regular function (invest), this refers to the global object when called in the global scope.*
+
+
+*In an arrow function (myFun), this is lexically inherited from the surrounding scope at the time the function is defined. If defined at the top level of a script (not inside another function or class), it generally refers to the global object unless in strict mode or a module where this could be undefined.*
+
+<br/><hr/>
+
+
