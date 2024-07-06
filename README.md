@@ -82,10 +82,13 @@ myFun();
 </code>
 
 <h4>Here</h4>
-*In a regular function (invest), this refers to the global object when called in the global scope.*
+
+* In regular function:
+In a regular function (invest), this refers to the global object when called in the global scope.
 
 
-*In an arrow function (myFun), this is lexically inherited from the surrounding scope at the time the function is defined. If defined at the top level of a script (not inside another function or class), it generally refers to the global object unless in strict mode or a module where this could be undefined.*
+* In Arrow Function:
+In an arrow function (myFun), this is lexically inherited from the surrounding scope at the time the function is defined. If defined at the top level of a script (not inside another function or class), it generally refers to the global object unless in strict mode or a module where this could be undefined.
 
 <br/><hr/>
 
