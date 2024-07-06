@@ -61,6 +61,6 @@ const Alian = {
 
 <br/><hr/>
 
-## Need to understand objects and arrays indepth from declaration to methods as we have further API feth and all they are in either array or object form [JSON object] (javascript object notation)
+## Need to understand objects and arrays indepth from declaration to methods as we have further API fetch and all they are in either array or object form [JSON object] (javascript object notation)
 
 <br/><hr/>
