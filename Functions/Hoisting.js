@@ -13,7 +13,7 @@ function one(){
     function tow(){
         let user2 = "Nitin";
         return `name is ${name} and price is ${price}`  //here we access the outer function properties "name" & "price"
-                                                        //means that the child function can access the variables of parent function 
+                                                        //means that the child function can access the properties of parent function 
     }
 
    // console.log(tow());  
@@ -35,10 +35,10 @@ function addOne(num){
     return num + 1;
 }
 
-//addOne(5); //it will not returning anythis as we are just calling the function
+//addOne(5); //it will not returning anything as we are just calling the function
 
 
-myFun(10);  // this will give an error of execution context that " Cannot access 'myFun' before initialization"
+myFun(10);  // this will give an error of execution context that " Cannot access 'myFun' before initialization"  //try yourself
 
 const myFun = function(number){  //here the my fun is the  ' FUNCTION EXPRESSION' 
     return Number + 100;

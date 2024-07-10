@@ -3,17 +3,17 @@
 //Named IIFE
 
 (function dB1(){
-  console.log("DATABASE CONNECTED SUCCESSFULLY");  
+  console.log("DATABASE CONNECTED SUCCESSFULLY");    //Unnamed IIFE
 })();
 
 //Arrow IIFE
 (()=>{
-    console.log("DATABASE 2 CONNECTED SUCCESSFULLY");
+    console.log("DATABASE 2 CONNECTED SUCCESSFULLY");     //Named IIFe
 })();
 
 //passing parameter
 ((name)=>{
-    console.log(`DATABASE 2 CONNECTED SUCCESSFULLY ${name}`);
+    console.log(`DATABASE 2 CONNECTED SUCCESSFULLY ${name}`);   // Parameterised Named IIFE
 })("NARAYANA")
 
 //Syntax IIFE
