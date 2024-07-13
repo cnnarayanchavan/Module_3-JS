@@ -112,4 +112,6 @@ After the creation phase completed, the execution phase begins where actual valu
 2. Execution phase 
 The return value of the 'Function Execution' context is **passed** to the **Global Execution Context**s
 
+Accepted the 30 days JS chellenge from ChaiCode
+
 
