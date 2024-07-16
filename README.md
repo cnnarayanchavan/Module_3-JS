@@ -116,4 +116,5 @@ Accepted the 30 days JS chellenge from ChaiCode
 * Variables ✅
 * Operators ✅
 * Control Strectures ✅
+* Loops ✅
 
